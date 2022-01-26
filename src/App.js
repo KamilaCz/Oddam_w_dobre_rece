@@ -8,12 +8,10 @@ const App = () => {
 
   return (
       <>
-       <Home />
+        <Home />
        <p>lalalala</p>
       </>)
 
 }
-App.displayName = "App";
 
-ReactDOM.render(<App />, document.getElementById("app"));
 export default App;
