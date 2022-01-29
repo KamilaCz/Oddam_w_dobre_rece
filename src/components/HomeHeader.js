@@ -9,6 +9,7 @@ import Decoration from "../assets/Decoration.svg";
 export default function HomeHeader() {
     return (
         <>
+            <div className="container">
             <section className="home__header">
                 <img
                 className="home__image"
@@ -42,6 +43,7 @@ export default function HomeHeader() {
                     </div>
                     </div>
         </section>
+            </div>
         </>
     );
 };
