@@ -1,1 +1,111 @@
 @import "settings";
+@import "./settings/base";
+
+.home__header {
+  height: 963px;
+  width: 1900px;
+  top: 0;
+  left: -483px;
+  display: flex;
+  padding-top: 37px;
+  padding-right: 142px;
+
+  .home__image {
+    width: 50%;
+
+  }
+
+  .home__right__side {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+    .navs {
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      top: 37px;
+      //left: 1075px;
+      width: 683px;
+      height: 95px;
+      padding: 0;
+      align-self: flex-end;
+
+      .navs__login {
+        align-self: flex-end;
+        width: 158px;
+        height: 36px;
+        display: flex;
+        margin-bottom: 17px;
+        justify-content: space-between;
+        padding: 0;
+        //border: 1px solid black;
+
+        .home__log__button {
+          height: 100%;
+          text-decoration: none;
+          text-align: center;
+          font: normal 13px $font-base;
+          color: #737373;
+          padding: 9px 10px 9px 10px;
+
+          &:hover {
+            border: 0.75px solid #FAD648;
+            opacity: 1;
+          }
+            }
+          }
+      .navs__menu{
+        top: 90px;
+        left: 1075px;
+        width: 683px;
+        height: 42px;
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        padding: 9px 0 9px 20px;
+
+        .navs__menu__item {
+          font: normal 18px $font-base;
+          letter-spacing: 0;
+          color: #3C3C3C;
+          cursor: pointer;
+        }
+      }
+        }
+    .home__text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 210px;
+      margin-right: 133px;
+      border: 1px solid black;
+      padding: 0;
+      height: 107px;
+      width: 674px;
+      margin-left: 66px;
+
+
+      h1 {
+        text-align: center;
+        font: normal 35px $font-base;
+        letter-spacing: -0.76px;
+        color: #3C3C3C;
+        opacity: 1;
+        margin: 0 0 19px 0;
+
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .home__deco {
+      width: 253px;
+      height: 33px;
+      margin-right: 341px;
+      margin-top: 25px;
+    }
+      }
+    }
+
