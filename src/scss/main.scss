@@ -146,6 +146,86 @@
   background: transparent url('../assets/3-Columns-Background.png') no-repeat;
   margin-top: 0;
   position: relative;
+  display: flex;
+  flex-direction: row;
 
+  .column {
+    width: 334px;
+    height: 252px;
+    margin-top: 46px;
+    margin-bottom: 86px;
+    margin-right: 286px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    //justify-content: space-between;
+    font: $font-base;
+
+    &:first-of-type {
+      margin-left: 163px;
+    }
+
+    &:last-of-type {
+      margin-right: 163px;
+    }
+
+    .number {
+      //height: 122px;
+      //font: $font-base;
+      font-size: 90px;
+      font-weight: 300;
+      letter-spacing: 0;
+      color: #5E5322;
+      opacity: 1;
+      margin: 0;
+    }
+
+    .what {
+      font-size: 18px;
+      font-weight: 400;
+      letter-spacing: -0.36px;
+      color: #3C3C3C;
+      opacity: 1;
+    }
+
+    .col__text {
+      font-size: 16px;
+      font: $font-alt;
+      letter-spacing: -0.32px;
+      color: #3C3C3C;
+      opacity: 1;
+    }
+  }
+}
+
+.steps {
+  top: 1403px;
+  left: 0;
+  width: 1900px;
+  height: 624px;
+  margin-top: 55px;
+  background-color: deeppink;
+  position: relative;
+
+  .steps__title {
+    top: 1403px;
+    left: 742px;
+    width: 416px;
+    height: 110px;
+    margin-left: 742px;
+    margin-right: 742px;
+    margin-bottom: 34px;
+  }
+
+  .steps__steps {
+    top: 1547px;
+    left: 0;
+    width: 1900px;
+    height: 325px;
+    /* UI Properties */
+    background: #F0F1F1 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
 }
 
