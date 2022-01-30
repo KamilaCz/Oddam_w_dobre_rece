@@ -4,21 +4,23 @@
 .home__header {
   height: 963px;
   width: 1758px;
-  top: 0;
-  left: -483px;
+  //top: 0;
+  //left: -483px;
   display: flex;
-  //padding-top: 37px;
-  //padding-right: 142px;
+  padding-right: 142px;
+  position: absolute;
 
   .home__image {
     width: 885px;
-    left: -483px;
+    top: 0;
+    left: -283px;
     background: transparent 0 0 no-repeat padding-box;
+    position: relative;
 
   }
 
   .home__right__side {
-    width: 50%;
+    width: 873px;
     display: flex;
     flex-direction: column;
 
@@ -26,7 +28,7 @@
       display: flex;
       flex-direction: column;
       text-decoration: none;
-      top: 37px;
+      //top: 37px;
       //left: 1075px;
       width: 683px;
       height: 95px;
@@ -81,7 +83,7 @@
       align-items: center;
       margin-top: 210px;
       margin-right: 133px;
-      border: 1px solid black;
+      //border: 1px solid black;
       padding: 0;
       height: 107px;
       width: 674px;
@@ -105,9 +107,45 @@
     .home__deco {
       width: 253px;
       height: 33px;
-      margin-right: 341px;
-      margin-top: 25px;
+      margin: 25px 341px 65px 279px;
+    }
+
+    .home__buttons {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 674px;
+      height: 120px;
+      margin-left: 66px;
+      //font: light 300 36px $font-base;
+      text-align: center;
+      color: #3C3C3C;
+      //position: absolute;
+
+     .home__button {
+        //position: relative;
+        letter-spacing: 0;
+        color: #3C3C3C;
+        opacity: 1;
+       width: 208px;
+       height: 94px;
+       font: normal 200 36px/45px $font-base;
+       &:last-of-type {
+       }
+
+}
     }
       }
     }
+
+.three__columns {
+  top: 964px;
+  left: 0;
+  width: 1900px;
+  height: 384px;
+  background: transparent url('../assets/3-Columns-Background.png') no-repeat;
+  margin-top: 0;
+  position: relative;
+
+}
 

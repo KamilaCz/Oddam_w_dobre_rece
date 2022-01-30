@@ -8,12 +8,11 @@ import Decoration from "../assets/Decoration.svg";
 
 export default function HomeHeader() {
     return (
-        <>
-            <div className="container">
             <section className="home__header">
                 <img
                 className="home__image"
                 src={homeImg}
+                alt=" "
                 />
                 <div className="home__right__side">
                     <div className="navs">
@@ -36,14 +35,13 @@ export default function HomeHeader() {
                     <img
                         className="home__deco"
                         src={Decoration}
+                        alt=" "
                     />
                     <div className="home__buttons">
-                        <Button><Link className="home__button" to="/oddaj-rzeczy">Oddaj rzeczy</Link></Button>
-                        <Button><Link className to="/">Zorganizuj zbiórkę</Link></Button>
+                        <Button children={<Link className="home__button" to="/oddaj-rzeczy">ODDAJ RZECZY</Link>}></Button>
+                        <Button children={<Link className="home__button" to="/">ZORGANIZUJ ZBIÓRKĘ</Link>}></Button>
                     </div>
                     </div>
         </section>
-            </div>
-        </>
     );
 };

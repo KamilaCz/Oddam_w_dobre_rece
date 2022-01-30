@@ -8,7 +8,7 @@ import HomeBackgroundOverlay from "./HomeBackgroundOverlay";
 
 export default function Home() {
     return (
-            <main style={{maxWidth: 1500, padding: "1rem 0" }}>
+            <main>
             <HomeHeader />
             <HomeThreeColumns />
             <HomeSimpleSteps />
